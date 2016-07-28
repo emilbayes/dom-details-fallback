@@ -1,0 +1,37 @@
+{
+  "name": "dom-details-fallback",
+  "version": "1.0.0",
+  "description": "Fallback for the interactive details element, emulating Chrome's behaviour in older browsers",
+  "main": "index.js",
+  "dependencies": {
+    "insert-css": "^1.0.0"
+  },
+  "devDependencies": {
+    "budo": "^8.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Visually inspect at the provided URL\" && budo test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilbayes/dom-details-fallback.git"
+  },
+  "keywords": [
+    "dom",
+    "polyfill",
+    "fallback",
+    "details",
+    "summary",
+    "ie8",
+    "ie9",
+    "support",
+    "unsupported",
+    "interactive"
+  ],
+  "author": "Emil Bay <github@tixz.dk>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilbayes/dom-details-fallback/issues"
+  },
+  "homepage": "https://github.com/emilbayes/dom-details-fallback#readme"
+}
