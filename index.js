@@ -1,6 +1,6 @@
 var insertCss = require('insert-css')
 
-var css = 'details{display:block;}details:not([open]) *:not(summary){display:none;}details > summary{display:block;}summary::before,summary:before{content:""▶";font-size:75%;line-height:1.5;vertical-align:bottom;display:inline-block;width:1.5em;height:1.5em;}details[open="open"] summary::before,details[open="open"] summary:before{content:"▼";}'
+var css = 'details{display:block;}details:not([open]) *:not(summary){display:none;}details > summary{display:block;vertical-align:middle;}summary::before,summary:before{content:"▶";display:inline-block;width:.8em;height:.15em;text-align:center;vertical-align:middle;font-size:120%;line-height:0;}details[open="open"] summary::before,details[open="open"] summary:before{content:"▼";font-size:80%;width:1.2em;}'
 
 function setTextContent (elm, text) {
   if (elm.textContent) elm.textContent = text
