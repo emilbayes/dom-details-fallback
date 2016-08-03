@@ -1,6 +1,6 @@
 {
   "name": "dom-details-fallback",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fallback for the interactive details element, emulating Chrome's behaviour in older browsers",
   "main": "index.js",
   "dependencies": {
